@@ -1,127 +1,133 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+</head>
 
-  <body>
+<body>
 
-    <!-- Navbar (stick on top) -->
-    <div class="gl-top">
-      <div class="gl-bar gl-white gl-wide gl-padding gl-card">
-        <a href="#home" class="gl-bar-item gl-button"><b>Lacerba</b> Interiors</a>
-        <!-- Float links to the right. Hide them on small screens -->
-        <div class="gl-right gl-hide-small">
-          <a href="#projects" class="gl-bar-item gl-button">Projects</a>
-          <a href="#about" class="gl-bar-item gl-button">About</a>
-          <a href="#contact" class="gl-bar-item gl-button">Contact</a>
+  <!-- Navbar (stick on top) -->
+  <div class="gl-top">
+    <div class="gl-bar gl-white gl-wide gl-padding gl-card">
+      <a href="#home" class="gl-bar-item gl-button"><b>Lacerba</b> Interiors</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="gl-right gl-hide-small">
+        <a href="#projects" class="gl-bar-item gl-button">Projects</a>
+        <a href="#about" class="gl-bar-item gl-button">About</a>
+        <a href="#contact" class="gl-bar-item gl-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="gl-display-container gl-content gl-wide" style="max-width:1500px;" id="home">
+    <img class="gl-image" src="images/hero-cover-2.jpg" alt="Architecture" width="1500" height="800">
+    <div class="gl-display-middle gl-margin-top gl-center">
+      <h1 class="gl-xxlarge gl-text-black"><span class="gl-padding gl-black gl-opacity-min"><b>Lacerba</b></span> <span
+          class="gl-hide-small gl-text-light-white">Portfolio</span></h1>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="gl-content gl-padding" style="max-width:1564px">
+
+    <!-- Project Section -->
+    <div class="gl-padding-32" id="projects">
+      <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">Projects</h3>
+    </div>
+
+    <div class="gl-grid-row">
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Do it yourself</div>
+          <img src="images/diy-1.jpg" alt="diy project" style="width:100%">
+        </div>
+      </div>
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Living room</div>
+          <img src="images/living-1.jpg" alt="House" style="width:100%">
+        </div>
+      </div>
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Kitchen</div>
+          <img src="images/kitchen-1.jpg" alt="House" style="width:100%">
+        </div>
+      </div>
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Do it yourself</div>
+          <img src="images/diy-2.jpg" alt="House" style="width:99%">
+        </div>
+      </div>
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Living room</div>
+          <img src="images/living-2.jpg" alt="House" style="width:99%">
+        </div>
+      </div>
+      <div class="gl-flow gl-margin-bottom">
+        <div class="gl-display-container">
+          <div class="gl-display-topleft gl-black gl-padding">Kitchen</div>
+          <img src="images/kitchen-2.jpg" alt="House" style="width:99%">
         </div>
       </div>
     </div>
 
-    <!-- Header -->
-    <header class="gl-display-container gl-content gl-wide" style="max-width:1500px;" id="home">
-      <img class="gl-image" src="images/hero-cover-2.jpg" alt="Architecture" width="1500" height="800">
-      <div class="gl-display-middle gl-margin-top gl-center">
-        <h1 class="gl-xxlarge gl-text-black"><span class="gl-padding gl-black gl-opacity-min"><b>Lacerba</b></span> <span class="gl-hide-small gl-text-light-white">Portfolio</span></h1>
-      </div>
-    </header>
-
-    <!-- Page content -->
-    <div class="gl-content gl-padding" style="max-width:1564px">
-
-      <!-- Project Section -->
-      <div class="gl-container gl-padding-32" id="projects">
-        <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">Projects</h3>
-      </div>
-
-      <div class="gl-row-padding">
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Do it yourself</div>
-            <img src="images/diy-1.jpg" alt="diy project" style="width:100%">
-          </div>
-        </div>
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Living room</div>
-            <img src="images/living-1.jpg" alt="House" style="width:100%">
-          </div>
-        </div>
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Kitchen</div>
-            <img src="images/kitchen-1.jpg" alt="House" style="width:100%">
-          </div>
-        </div>
-      </div>
-
-      <div class="gl-row-padding">
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Do it yourself</div>
-            <img src="images/diy-2.jpg" alt="House" style="width:99%">
-          </div>
-        </div>
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Living room</div>
-            <img src="images/living-2.jpg" alt="House" style="width:99%">
-          </div>
-        </div>
-        <div class="gl-col l4 m6 gl-margin-bottom">
-          <div class="gl-display-container">
-            <div class="gl-display-topleft gl-black gl-padding">Kitchen</div>
-            <img src="images/kitchen-2.jpg" alt="House" style="width:99%">
-          </div>
-        </div>
-      </div>
-
-      <!-- About Section -->
-      <div class="gl-container gl-padding-32" id="about">
-        <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">About</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-
-      <!-- Contact Section -->
-      <div class="gl-container gl-padding-32" id="contact">
-        <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">Contact</h3>
-        <p>Lets get in touch and talk about your next project.</p>
-        <form action="/action_page.php" target="_blank">
-          <input class="gl-input gl-border" type="text" placeholder="Name" required name="Name">
-          <input class="gl-input gl-section gl-border" type="text" placeholder="Email" required name="Email">
-          <input class="gl-input gl-section gl-border" type="text" placeholder="Subject" required name="Subject">
-          <input class="gl-input gl-section gl-border" type="text" placeholder="Comment" required name="Comment">
-          <button class="gl-button gl-black gl-section" type="submit">
-        <i class="fa fa-paper-plane"></i> Send Message
-      </button>
-        </form>
-      </div>
-
-      <!-- Image of location/map -->
-      <div class="gl-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.632950489175!2d13.411117315892813!3d52.521981379814626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1edb11286f%3A0x30fc01c366e4166e!2sAlexanderplatz!5e0!3m2!1sit!2sde!4v1652860346708!5m2!1sit!2sde"
-          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <!-- End page content -->
+    <!-- About Section -->
+    <div class="gl-container gl-padding-32" id="about">
+      <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">About</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
     </div>
 
+    <!-- Contact Section -->
+    <div class="gl-container gl-padding-32" id="contact">
+      <h3 class="gl-border-bottom gl-border-light-grey gl-padding-16">Contact</h3>
+      <p>Lets get in touch and talk about your next project.</p>
+      <form action="/action_page.php" target="_blank">
+        <input class="gl-input gl-border" type="text" placeholder="Name" required name="Name">
+        <input class="gl-input gl-section gl-border" type="text" placeholder="Email" required name="Email">
+        <input class="gl-input gl-section gl-border" type="text" placeholder="Subject" required name="Subject">
+        <input class="gl-input gl-section gl-border" type="text" placeholder="Comment" required name="Comment">
+        <button class="gl-button gl-black gl-section" type="submit">
+          <i class="fa fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
 
-    <!-- Footer -->
-    <footer class="gl-black gl-padding-16">
-      <div class="gl-center" style="max-width:1564px;margin-left: auto;margin-right: auto;">
-        <p>Powered by <a href="https://planbproject.it" title="framework.css" target="_blank" class="gl-hover-text-green">CSS Framework</a>, Images from <a href="https://pexels.com">Pexels</a></p>
-      </div>
-    </footer>
+    <!-- Image of location/map -->
+    <div class="gl-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.632950489175!2d13.411117315892813!3d52.521981379814626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e1edb11286f%3A0x30fc01c366e4166e!2sAlexanderplatz!5e0!3m2!1sit!2sde!4v1652860346708!5m2!1sit!2sde"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 
-  </body>
+    <!-- End page content -->
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="gl-black gl-padding-16">
+    <div class="gl-center" style="max-width:1564px;margin-left: auto;margin-right: auto;">
+      <p>Powered by <a href="https://planbproject.it" title="framework.css" target="_blank"
+          class="gl-hover-text-green">CSS Framework</a>, Images from <a href="https://pexels.com">Pexels</a></p>
+    </div>
+  </footer>
+
+</body>
 
 </html>
