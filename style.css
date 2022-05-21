@@ -194,13 +194,13 @@ form {
 /* Testimonials */
 
 .bg-primary {
-  background-color: #f6ed71;
+  background-color: #abf4d8;
 }
 .bg-secondary {
   background-color: #c7cdea;
 }
 .bg-neutral {
-  background-color: #fff;
+  background-color: rgb(252, 238, 255);
 }
 
 .gl-testimonial {
@@ -216,14 +216,14 @@ form {
 }
 
 .gl-testimonial img {
-  width: 3rem;
+  width: 5rem;
   aspect-ratio: 1;
   border-radius: 50%;
 }
 
 .gl-testimonial .name {
   font-size: 1.6rem;
-  font-weight: var(--fw-400);
+  font-weight: 200;
   line-height: 1;
 }
 
