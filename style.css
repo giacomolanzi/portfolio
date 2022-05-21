@@ -53,6 +53,9 @@ a {
   padding-top: 3.2rem;
   padding-bottom: 3.2rem;
 }
+.gl-padding-top-32 {
+  padding-top: 3.2rem;
+}
 .gl-image {
   max-width: 100%;
   height: auto;
@@ -117,7 +120,16 @@ a {
 .gl-content {
   margin-left: auto;
   margin-right: auto;
+}
+.gl-container {
   max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gl-container-wide {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .gl-display-container {
   position: relative;
@@ -177,6 +189,69 @@ form {
   cursor: pointer;
   white-space: nowrap;
   margin-top: 1.5em;
+}
+
+/* Testimonials */
+
+.bg-primary {
+  background-color: #f6ed71;
+}
+.bg-secondary {
+  background-color: #c7cdea;
+}
+.bg-neutral {
+  background-color: #fff;
+}
+
+.gl-testimonial {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25);
+}
+
+.gl-testimonial.quote {
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: top right 10%;
+}
+
+.gl-testimonial img {
+  width: 3rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+
+.gl-testimonial .name {
+  font-size: 1.6rem;
+  font-weight: var(--fw-400);
+  line-height: 1;
+}
+
+.gl-testimonial .position {
+  font-size: 1.4rem;
+  opacity: 0.5;
+}
+
+.gl-testimonial > p:first-of-type {
+  font-size: 1.4rem;
+  line-height: 1.2;
+}
+
+.gl-testimonial > p:last-of-type {
+  opacity: 0.7;
+}
+.gl-testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+.gl-testimonial:last-child {
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 /* Footer */
