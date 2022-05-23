@@ -242,16 +242,19 @@ form {
 }
 .gl-testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
-.grid-col-span-2 {
-  grid-column: span 2;
-}
-.gl-testimonial:last-child {
-  grid-column-start: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
+
+@media (min-width: 50em) {
+  .gl-testimonial-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gl-testimonial:last-child {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
 }
 
 /* Footer */
