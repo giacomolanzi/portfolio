@@ -61,33 +61,12 @@ a {
   height: auto;
 }
 
-/* Hero section */
-
-.gl-hero {
-  min-height: 50vw;
-  max-height: 70vh;
-  background-image: url(images/hero-cover-2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: grid;
-  align-items: center;
-}
-.gl-center {
-  text-align: center;
-}
-.gl-page-title {
-  font-size: 3.6rem;
-}
-
 /* Navbar on top */
 .gl-top {
   position: fixed;
   width: 100%;
   z-index: 1;
   top: 0;
-}
-.gl-card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 1rem 0 rgba(0, 0, 0, 0.12);
 }
 .gl-nav {
   display: grid;
@@ -119,6 +98,27 @@ a {
   display: flex;
   justify-content: end;
   padding-right: 2em;
+}
+.gl-card {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 1rem 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Hero section */
+
+.gl-hero {
+  min-height: 50vw;
+  max-height: 70vh;
+  background-image: url(images/hero-cover-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+}
+.gl-center {
+  text-align: center;
+}
+.gl-page-title {
+  font-size: 3.6rem;
 }
 
 /* Content */
